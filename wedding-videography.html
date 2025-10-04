@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Films | Cinematic Stories</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+       <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- custom cursor -->
+    <div class="custom-cursor-outer" id="customCursorOuter"></div>
+    <div class="custom-cursor-inner" id="customCursorInner"></div>
+
+
+    <header>
+      <nav class="navbar">
+
+        <a href="" class="hdLogo_norm">
+          
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 100px; width: 100px"
+              />
+         
+        </a>
+      
+          <!-- Hamburger Toggle Button -->
+  <div class="navTogSur" onclick="toggleNav()">
+    <img src="assets/images/togBut.png" alt="Menu" />
+  </div>
+
+        <div class="nav-section nav-links-left">
+          <ul>
+            <li class="hdLogo_small">
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 100px; width: 100px"
+              />
+            </li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="client-memories.html">CLIENT MEMORIES</a></li>
+            <li><a href="wedding-photography.html">WEDDING PHOTOGRAPHY</a></li>
+
+            <li>
+              <a href="wedding-videography.html">WEDDING VIDEOGRAPHY</a>
+            </li>
+            <li><a href="special-event.html">SPECIAL EVENTS</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
+          </ul>
+
+
+        <div class="nav-section nav-search navSrch_1" style="display: flex; gap: 14px; align-items: center">
+          <!-- Instagram Icon -->
+          <a
+            href="https://www.instagram.com/surajverma.co.uk"
+            aria-label="Instagram"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-instagram" style="color: white"></i>
+          </a>
+
+          <!-- Facebook Icon -->
+          <a
+            href="https://www.facebook.com/surajverma07852363635/friends"
+            aria-label="Facebook"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-facebook-f" style="color: white"></i>
+          </a>
+
+          <!-- YouTube Icon -->
+          <a
+            href="https://www.youtube.com/@Filmbysurajverma"
+            aria-label="YouTube"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-youtube" style="color: white"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@surajverma.com"
+            aria-label="TikTok"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-tiktok" style="color: white"></i>
+          </a>
+        </div>
+
+        </div>
+
+        <div class="nav-section nav-search navSrch" style="display: flex; gap: 14px; align-items: center">
+          <!-- Instagram Icon -->
+          <a
+            href="https://www.instagram.com/surajverma.co.uk"
+            aria-label="Instagram"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-instagram" style="color: white"></i>
+          </a>
+
+          <!-- Facebook Icon -->
+          <a
+            href="https://www.facebook.com/surajverma07852363635/friends"
+            aria-label="Facebook"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-facebook-f" style="color: white"></i>
+          </a>
+
+          <!-- YouTube Icon -->
+          <a
+            href="https://www.youtube.com/@Filmbysurajverma"
+            aria-label="YouTube"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-youtube" style="color: white"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@surajverma.com"
+            aria-label="TikTok"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-tiktok" style="color: white"></i>
+          </a>
+        </div>
+
+        <!--<div class="nav-section nav-social">-->
+        <!--  <a href="#" aria-label="Grid View"><i class="fas fa-th"></i></a>-->
+        <!--</div>-->
+      </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="hero_3">
+      <div class="hero-content">
+        <h1>Explore Our Latest Videography</h1>
+        <p>Timeless moments, beautifully captured</p>
+        <a href="#videography">
+          <div class="scroll-indicator">
+            <span style="color: white">SCROLL TO EXPLORE</span>
+            <i class="fas fa-arrow-down" style="color: white"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <div class="intro-content">
+          <div class="intro-text">
+            <!--<span class="subtitle">Our Approach</span>-->
+            <h2>
+              Crafting Your <span style="color: #b08c45">Love Story</span>
+            </h2>
+            <p>
+              We believe in capturing the essence of your special day through
+              cinematic storytelling. Each frame is carefully composed to
+              preserve the emotions, the laughter, and the precious moments that
+              make your wedding unique.
+            </p>
+          </div>
+          <div class="intro-stats">
+            <div class="stat-item">
+              <span class="stat-number" style="color: #b08c45">150+</span>
+              <span class="stat-label">Weddings Filmed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" style="color: #b08c45">200+</span>
+              <span class="stat-label">Happy Client </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" style="color: #b08c45">10+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" style="color: #b08c45">4K</span>
+              <span class="stat-label">Ultra HD Quality</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video-section" id="videography">
+      <h2 class="video-heading" style="font-family: 'Poppins', sans-serif">
+        Our Cinematic <span style="color: #b08c45">Wedding Highlights</span>
+      </h2>
+
+      <div class="video-grid">
+        <!-- Video Cards (1st set) -->
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/0fzELF7Ok2U?si=QE4kDqpfhSrg-kdd"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A STUNNING BLACK TIE WEDDING AT THE VENUE: TORTWORTH COURT</h4>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/lyWveBd5ta0"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A SUMMER WEDDING AT OLD GORE BY YARD SPACE</h4>
+        </div>
+      </div>
+
+      <div class="video-grid">
+        <!-- Video Cards (2nd set) -->
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/m6BZBWKb8OE"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A STUNNING BLACK TIE WEDDING AT THE VENUE: TORTWORTH COURT</h4>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/HNJMUJb2xlo"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A SUMMER WEDDING AT OLD GORE BY YARD SPACE</h4>
+        </div>
+      </div>
+
+      <div class="video-grid">
+        <!-- Video Cards (3rd set) -->
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              width="560"
+              height="315"
+              src="https://youtu.be/glnMU-pSwI4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A STUNNING BLACK TIE WEDDING AT THE VENUE: TORTWORTH COURT</h4>
+        </div>
+        <div class="video-card">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/OsJIYKpp6FQ"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+            <div class="custom-play-btn"></div>
+          </div>
+          <h4>A SUMMER WEDDING AT OLD GORE BY YARD SPACE</h4>
+        </div>
+      </div>
+
+      <!-- Contact Button -->
+      <div class="contact-button-wrapper">
+        <a
+          href="contact-us.html"
+          class="contact-btn"
+          style="font-family: 'Poppins', sans-serif"
+          >Contact Us</a
+        >
+      </div>
+    </section>
+
+    <!-- <section class="real-estate-section">-->
+    <!--  <div class="top-row">-->
+    <!--    <div class="info-box">-->
+    <!--      <h2>Real Estate Shoot</h2>-->
+    <!--      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>-->
+    <!--      <div class="tags">-->
+    <!--        <span>📷 Aerial Photography & Videography</span>-->
+    <!--        <span>📅 February 2025</span>-->
+    <!--      </div>-->
+    <!--      <a href="#" class="btn">See Detail</a>-->
+    <!--    </div>-->
+    <!--    <div class="video-box">-->
+    <!--      <img src="video-placeholder.jpg" alt="Video Thumbnail" />-->
+    <!--      <div class="play-button">▶</div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--  <div class="bottom-row">-->
+    <!--    <div class="feature-box">-->
+    <!--      <h3>4K<br>Ultra HD</h3>-->
+    <!--      <p>Lorem ipsum dolor sit amet</p>-->
+    <!--    </div>-->
+    <!--    <div class="feature-box">-->
+    <!--      <h3>Dynamic<br>Angle</h3>-->
+    <!--      <p>Lorem ipsum dolor sit amet</p>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</section>-->
+
+    <!--- work process--->
+
+    <div class="" style="width: 100vw; background-color: black">
+      <div class="process">
+        <div class="container">
+          <div class="section-header">
+            <h2
+              style="color: white; font-family: 'Poppins', sans-serif"
+              class="video-heading"
+            >
+              Our Process
+            </h2>
+          </div>
+          <div class="process-grid">
+            <div class="process-item">
+              <div class="process-icon">
+                <i class="fas fa-comments" style="color: #b08c45"></i>
+              </div>
+              <h3>Consultation</h3>
+              <p>
+                We begin with understanding your vision and planning the perfect
+                coverage for your special day.
+              </p>
+            </div>
+            <div class="process-item">
+              <div class="process-icon">
+                <i class="fas fa-video" style="color: #b08c45"></i>
+              </div>
+              <h3>Filming</h3>
+              <p>
+                Turn your special moments into a cinematic masterpiece with our
+                Filming-style videography.
+              </p>
+            </div>
+            <div class="process-item">
+              <div class="process-icon">
+                <i class="fas fa-edit" style="color: #b08c45"></i>
+              </div>
+              <h3>Editing</h3>
+              <p>
+                We carefully craft your story through meticulous editing and
+                color grading.
+              </p>
+            </div>
+            <div class="process-item">
+              <div class="process-icon">
+                <i class="fas fa-heart" style="color: #b08c45"></i>
+              </div>
+              <h3>Delivery</h3>
+              <p>
+                Receive your beautifully crafted wedding film in stunning 4K
+                quality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- latest work  Section -->
+    <!--<section class="instagram">-->
+    <!--  <div class="instagram-heading">-->
+
+    <!--    <h2> Our Latest Work </h2>-->
+    <!--  </div>-->
+    <!--  <div class="instagram-grid">-->
+    <!--    <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/3014019/pexels-photo-3014019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+    <!--    <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/1456951/pexels-photo-1456951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+    <!--    <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/1157557/pexels-photo-1157557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+    <!--      <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/3014019/pexels-photo-3014019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+    <!--    <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/1449667/pexels-photo-1449667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+
+    <!--    <div class="instagram-item">-->
+    <!--      <img src="https://images.pexels.com/photos/1591382/pexels-photo-1591382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Instagram Post">-->
+    <!--<div class="instagram-overlay">-->
+    <!--  <i class="fab fa-instagram"></i>-->
+    <!--</div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</section>-->
+
+    <!-- faq -->
+    <div
+      class="faq-container"
+      style="
+        width: 100vw;
+        background-color: #efefef;
+        margin-bottom: -60px;
+        margin-top: -60px;
+      "
+    >
+      <div class="faq-section">
+        <h2 class="video-heading">
+          Frequently <span style="color: #b08c45"> Asked Questions</span>
+        </h2>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What services do you offer?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            We specialize in wedding photography, cinematic videography, and
+            album design to capture your precious moments beautifully.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How can I book a session?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            You can book a session by contacting us through the website’s
+            contact form or via WhatsApp/Instagram.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you travel for destination weddings?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Absolutely! We love capturing destination weddings and are open to
+            travel both domestically and internationally.
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-column">
+            <div class="footer-logo">
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 200px; margin-top: -30px; width: 200px"
+              />
+            </div>
+            <p class="footer-about">
+              Capturing your best moments with precision, style, and soul.
+              Creating timeless memories that last forever through the art of
+              photography.
+            </p>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-column">
+            <h4>Contact Information</h4>
+            <div class="footer-contact">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 
+              </p>
+              <p><i class="fas fa-envelope"></i> mail@surajverma.co.uk</p>
+              <a href="tel:+447852363635"
+                ><i class="fas fa-phone"></i> 07852363635</a
+              >
+              <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="client-memories.html">Client Memories</a></li>
+              <li>
+                <a href="wedding-photography.html">Wedding Photography</a>
+              </li>
+              <li>
+                <a href="wedding-videography.html">Wedding Videography</a>
+              </li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="special-event.html">Special Events</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Column with Inline Header -->
+          <div class="footer-column social-column">
+            <div class="social-header-container">
+              <h4>Follow Us</h4>
+              <div class="rotating-social-system">
+                <!-- Outer Ring Guide -->
+                <div class="orbit-ring"></div>
+
+                <!-- Center Hub -->
+                <div class="center-hub">
+                  <div class="hub-inner">
+                    <i class="fas fa-camera"></i>
+                  </div>
+                  <div class="hub-text">SV</div>
+                  <!--<img src="https://kyletest.in/surajphotography/assets/images/surajphotographylogo.png" style="width:100% ; height:100%; border-radius:50%;"/>-->
+                </div>
+
+                <!-- Rotating Social Icons -->
+                <div class="social-orbit">
+                  <!-- Facebook -->
+                  <a
+                    href="https://www.facebook.com/surajverma07852363635/friends"
+                    class="orbit-icon facebook-icon"
+                    style="
+                      --rotation: 0deg;
+                      text-decoration: none;
+                      border: none;
+                    "
+                    title="Facebook"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+
+                  <!-- Instagram -->
+                  <a
+                    href="https://www.instagram.com/surajverma.co.uk"
+                    class="orbit-icon instagram-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 90deg;
+                    "
+                    title="Instagram"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <!-- Twitter -->
+                  <a
+                    href="https://www.youtube.com/@Filmbysurajverma"
+                    class="orbit-icon youtube-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 180deg;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 50px;
+                      width: 50px;
+                      border-radius: 50%;
+                      background-color: #fe0000;
+                    "
+                    title="YouTube"
+                  >
+                    <i
+                      class="fab fa-youtube"
+                      style="font-size: 24px; color: white"
+                    ></i>
+                  </a>
+
+                  <!-- tiktok -->
+                  <a
+                    href="https://www.tiktok.com/@surajverma.com"
+                    class="orbit-icon pinterest-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 270deg;
+                      background-color: black;
+                    "
+                    title="Pinterest"
+                  >
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>
+            The content on this website is owned by us and our licensors. Do not
+            copy any content (including images) without our consent.
+          </p>
+          <p>
+            © 2025 All Rights Reserved
+            <span>Suraj Photography</span> &nbsp;|&nbsp; Designed & Developed by
+            <a href="https://www.kyleinfotech.co.in/">Kyle Infotech</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script>
+      const faqItems = document.querySelectorAll(".faq-item");
+
+      faqItems.forEach((item) => {
+        item.querySelector(".faq-question").addEventListener("click", () => {
+          item.classList.toggle("active");
+
+          // Optional: close other FAQs when one is opened
+          faqItems.forEach((other) => {
+            if (other !== item) other.classList.remove("active");
+          });
+        });
+      });
+      // Start of Custom Cursor JavaScript (moved inside DOMContentLoaded for reliable execution)
+      const customCursorInner = document.getElementById("customCursorInner");
+      const customCursorOuter = document.getElementById("customCursorOuter");
+
+      let mouseX = 0;
+      let mouseY = 0;
+      let innerX = 0;
+      let innerY = 0;
+      let outerX = 0;
+      let outerY = 0;
+
+      // Easing factor for smoother follow (lower value means slower follow)
+      const easingInner = 0.15;
+      const easingOuter = 0.1;
+
+      // Function to update mouse position
+      document.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      // Add class for click effect
+      document.addEventListener("mousedown", () => {
+        customCursorInner.classList.add("active");
+        customCursorOuter.classList.add("active");
+      });
+
+      document.addEventListener("mouseup", () => {
+        customCursorInner.classList.remove("active");
+        customCursorOuter.classList.remove("active");
+      });
+
+      // Animation loop for smooth cursor movement
+      function animate() {
+        // Smoothly move inner cursor towards mouse position
+        innerX += (mouseX - innerX) * easingInner;
+        innerY += (mouseY - innerY) * easingInner;
+        customCursorInner.style.left = `${innerX}px`;
+        customCursorInner.style.top = `${innerY}px`;
+
+        // Smoothly move outer cursor towards inner cursor position (creating the trail)
+        outerX += (innerX - outerX) * easingOuter;
+        outerY += (innerY - outerY) * easingOuter;
+        customCursorOuter.style.left = `${outerX}px`;
+        customCursorOuter.style.top = `${outerY}px`;
+
+        requestAnimationFrame(animate); // Continue the animation loop
+      }
+
+      // Start the custom cursor animation
+      animate();
+
+      // You can add specific hover effects for interactive elements if desired
+      document.querySelectorAll("button, a").forEach((element) => {
+        element.addEventListener("mouseenter", () => {
+          // Example: Change cursor color or size on hover over interactive elements
+          // customCursorInner.style.backgroundColor = '#f97316'; // Orange
+          // customCursorOuter.style.borderColor = 'rgba(249, 115, 22, 0.7)';
+        });
+        element.addEventListener("mouseleave", () => {
+          // Revert styles on mouse leave
+          // customCursorInner.style.backgroundColor = '#6366f1'; // Indigo
+          // customCursorOuter.style.borderColor = 'rgba(99, 102, 241, 0.7)';
+        });
+      });
+    </script>
+        <script>
+  function toggleNav() {
+    const navLinks = document.querySelector('.nav-links-left');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
+  </body>
+</html>

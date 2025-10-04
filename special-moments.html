@@ -1,0 +1,739 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special moments</title>
+
+    <!-- LightGallery CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
+       <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- LightGallery CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css"
+    />
+
+    <!-- owl min css -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- owl theme default -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ***************** header *************** -->
+
+
+    <header>
+      <nav class="navbar">
+
+        <a href="" class="hdLogo_norm">
+          
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 100px; width: 100px"
+              />
+         
+        </a>
+      
+          <!-- Hamburger Toggle Button -->
+  <div class="navTogSur" onclick="toggleNav()">
+    <img src="assets/images/togBut.png" alt="Menu" />
+  </div>
+
+        <div class="nav-section nav-links-left">
+          <ul>
+            <li class="hdLogo_small">
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 100px; width: 100px"
+              />
+            </li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="client-memories.html">CLIENT MEMORIES</a></li>
+            <li><a href="wedding-photography.html">WEDDING PHOTOGRAPHY</a></li>
+
+            <li>
+              <a href="wedding-videography.html">WEDDING VIDEOGRAPHY</a>
+            </li>
+            <li><a href="special-event.html">SPECIAL EVENTS</a></li>
+            <li><a href="contact-us.html">CONTACT</a></li>
+          </ul>
+
+
+        <div class="nav-section nav-search navSrch_1" style="display: flex; gap: 14px; align-items: center">
+          <!-- Instagram Icon -->
+          <a
+            href="https://www.instagram.com/surajverma.co.uk"
+            aria-label="Instagram"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-instagram" style="color: white"></i>
+          </a>
+
+          <!-- Facebook Icon -->
+          <a
+            href="https://www.facebook.com/surajverma07852363635/friends"
+            aria-label="Facebook"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-facebook-f" style="color: white"></i>
+          </a>
+
+          <!-- YouTube Icon -->
+          <a
+            href="https://www.youtube.com/@Filmbysurajverma"
+            aria-label="YouTube"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-youtube" style="color: white"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@surajverma.com"
+            aria-label="TikTok"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-tiktok" style="color: white"></i>
+          </a>
+        </div>
+
+        </div>
+
+        <div class="nav-section nav-search navSrch" style="display: flex; gap: 14px; align-items: center">
+          <!-- Instagram Icon -->
+          <a
+            href="https://www.instagram.com/surajverma.co.uk"
+            aria-label="Instagram"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-instagram" style="color: white"></i>
+          </a>
+
+          <!-- Facebook Icon -->
+          <a
+            href="https://www.facebook.com/surajverma07852363635/friends"
+            aria-label="Facebook"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-facebook-f" style="color: white"></i>
+          </a>
+
+          <!-- YouTube Icon -->
+          <a
+            href="https://www.youtube.com/@Filmbysurajverma"
+            aria-label="YouTube"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.background='#B08C45'; this.style.transform='scale(1.1)'"
+            onmouseout="this.style.background='#B08C45'; this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-youtube" style="color: white"></i>
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@surajverma.com"
+            aria-label="TikTok"
+            style="
+              font-size: 20px;
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              background: #b08c45;
+              color: white;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-decoration: none;
+              transition: all 0.3s ease;
+            "
+            onmouseover="this.style.transform='scale(1.1)'"
+            onmouseout="this.style.transform='scale(1)'"
+          >
+            <i class="fab fa-tiktok" style="color: white"></i>
+          </a>
+        </div>
+
+        <!--<div class="nav-section nav-social">-->
+        <!--  <a href="#" aria-label="Grid View"><i class="fas fa-th"></i></a>-->
+        <!--</div>-->
+      </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="heroin_4">
+      <div class="hero-content">
+        <h1>Special Moments</h1>
+        <p>Timeless moments, beautifully captured</p>
+        <a href="#special">
+          <div class="scroll-indicator">
+            <span style="color: white">SCROLL TO EXPLORE</span>
+            <i class="fas fa-arrow-down" style="color: white"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="innerSec">
+      <div class="container">
+        <div class="section-header" bis_skin_checked="1">
+          <h2 class="section-title">
+            Let's <span style="color: #b9954e">Connect</span>
+          </h2>
+          <p class="section-subtitle">
+            Ready to capture your special moments? Reach out and let's discuss
+            how we can bring your vision to life with stunning photography that
+            tells your unique story.
+          </p>
+        </div>
+
+        <h3 id="special">Baby Shower -</h3>
+
+        <div id="lightgallery" class="owwlInn_sur owl-carousel owl-theme">
+          <div class="item" data-src="assets/images/spclMom_1.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_2.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_2.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_3.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_4.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_5.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_6.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h3>Engagement-</h3>
+
+        <div id="lightgallery2" class="owwlInn_sur_1 owl-carousel owl-theme">
+          <div class="item" data-src="assets/images/spclMom_11.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_11.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_12.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_12.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_13.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_13.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/spclMom_15.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/spclMom_15.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <h3>Pre Wedding / Couple Shoots-</h3>
+
+        <div id="lightgallery3" class="owwlInn_sur_1 owl-carousel owl-theme">
+          <div class="item" data-src="assets/images/preeWd_1.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/preeWd_1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/preeWd_2.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/preeWd_2.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="item" data-src="assets/images/weSur_imgg_3.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/weSur_imgg_3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/preeWd_7.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/preeWd_7.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/preeWd_9.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/preeWd_9.jpg" alt="" />
+            </div>
+          </div>
+          <div class="item" data-src="assets/images/banner3.jpg">
+            <div class="inSur_phto">
+              <img src="assets/images/banner3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-header othersVst" bis_skin_checked="1">
+      <h2 class="section-title">
+        Visit <span style="color: #b9954e">Other's</span>
+      </h2>
+      <!-- <p class="section-subtitle">Ready to capture your special moments? Reach out and let's discuss how we can bring your vision to life with stunning photography that tells your unique story.</p> -->
+    </div>
+
+    <section class="othInn_pg">
+      <div class="container">
+        <div class="othInn_pgDIV">
+          <a href="hindu-wedding.html" class="card">
+            <div class="card-img">
+              <img src="assets/images/hinduwedding2.jpg" alt="Card Image" />
+            </div>
+            <div class="card-text"><h3>Hindu Wedding</h3></div>
+            <div class="overlay"></div>
+          </a>
+
+          <a href="muslim-wedding.html" class="card">
+            <div class="card-img">
+              <img src="assets/images/mussWed_13.jpg" alt="Card Image" />
+            </div>
+            <div class="card-text"><h3>Muslim Wedding</h3></div>
+            <div class="overlay"></div>
+          </a>
+
+          <a href="sikh-wedding.html" class="card">
+            <div class="card-img">
+              <img src="assets/images/sikhwedding8.jpg" alt="Card Image" />
+            </div>
+            <div class="card-text"><h3>Sikh Moments</h3></div>
+            <div class="overlay"></div>
+          </a>
+
+          <a href="civil-wedding.html" class="card">
+            <div class="card-img">
+              <img src="assets/images/British1.jpg" alt="Card Image" />
+            </div>
+            <div class="card-text"><h3>Civil Wedding</h3></div>
+            <div class="overlay"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+ 
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-grid">
+          <!-- Brand Column -->
+          <div class="footer-column">
+            <div class="footer-logo">
+              <img
+                src="assets/images/surajphotographylogo.png"
+                style="height: 200px; margin-top: -30px; width: 200px"
+              />
+            </div>
+            <p class="footer-about">
+              Capturing your best moments with precision, style, and soul.
+              Creating timeless memories that last forever through the art of
+              photography.
+            </p>
+          </div>
+
+          <!-- Contact Column -->
+          <div class="footer-column">
+            <h4>Contact Information</h4>
+            <div class="footer-contact">
+              <p>
+                <i class="fas fa-map-marker-alt"></i> 
+              </p>
+              <p><i class="fas fa-envelope"></i> mail@surajverma.co.uk</p>
+              <a href="tel:+447852363635"
+                ><i class="fas fa-phone"></i> 07852363635</a
+              >
+              <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+
+          <!-- Quick Links Column -->
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="client-memories.html">Client Memories</a></li>
+              <li>
+                <a href="wedding-photography.html">Wedding Photography</a>
+              </li>
+              <li>
+                <a href="wedding-videography.html">Wedding Videography</a>
+              </li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li><a href="special-event.html">Special Events</a></li>
+            </ul>
+          </div>
+
+          <!-- Social Media Column with Inline Header -->
+          <div class="footer-column social-column">
+            <div class="social-header-container">
+              <h4>Follow Us</h4>
+              <div class="rotating-social-system">
+                <!-- Outer Ring Guide -->
+                <div class="orbit-ring"></div>
+
+                <!-- Center Hub -->
+                <div class="center-hub">
+                  <div class="hub-inner">
+                    <i class="fas fa-camera"></i>
+                  </div>
+                  <div class="hub-text">SV</div>
+                  <!--<img src="https://kyletest.in/surajphotography/assets/images/surajphotographylogo.png" style="width:100% ; height:100%; border-radius:50%;"/>-->
+                </div>
+
+                <!-- Rotating Social Icons -->
+                <div class="social-orbit">
+                  <!-- Facebook -->
+                  <a
+                    href="https://www.facebook.com/surajverma07852363635/friends"
+                    class="orbit-icon facebook-icon"
+                    style="
+                      --rotation: 0deg;
+                      text-decoration: none;
+                      border: none;
+                    "
+                    title="Facebook"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+
+                  <!-- Instagram -->
+                  <a
+                    href="https://www.instagram.com/surajverma.co.uk"
+                    class="orbit-icon instagram-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 90deg;
+                    "
+                    title="Instagram"
+                  >
+                    <i class="fab fa-instagram"></i>
+                  </a>
+
+                  <!-- Twitter -->
+                  <a
+                    href="https://www.youtube.com/@Filmbysurajverma"
+                    class="orbit-icon youtube-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 180deg;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 50px;
+                      width: 50px;
+                      border-radius: 50%;
+                      background-color: #fe0000;
+                    "
+                    title="YouTube"
+                  >
+                    <i
+                      class="fab fa-youtube"
+                      style="font-size: 24px; color: white"
+                    ></i>
+                  </a>
+
+                  <!-- tiktok -->
+                  <a
+                    href="https://www.tiktok.com/@surajverma.com"
+                    class="orbit-icon pinterest-icon"
+                    style="
+                      text-decoration: none;
+                      border: none;
+                      --rotation: 270deg;
+                      background-color: black;
+                    "
+                    title="Pinterest"
+                  >
+                    <i class="fab fa-tiktok"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <p>
+            The content on this website is owned by us and our licensors. Do not
+            copy any content (including images) without our consent.
+          </p>
+          <p>
+            © 2025 All Rights Reserved
+            <span>Suraj Photography</span> &nbsp;|&nbsp; Designed & Developed by
+            <a href="https://www.kyleinfotech.co.in/">Kyle Infotech</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- LightGallery JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owwlInn_sur").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          items: 4,
+          dots: false,
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 3000,
+          smartSpeed: 1500,
+          rtl: true,
+          
+                     // ✅ Responsive settings
+    responsive: {
+      0: {
+        items: 1, 
+      },
+      768: {
+        items: 1, 
+      },
+      991: {
+        items: 2,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owwlInn_sur_1").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          items: 4,
+          dots: false,
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 3000,
+          smartSpeed: 1500,
+          
+                     // ✅ Responsive settings
+    responsive: {
+      0: {
+        items: 1, 
+      },
+      768: {
+        items: 1, 
+      },
+      991: {
+        items: 2,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+        });
+      });
+    </script>
+
+    <script>
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".item",
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+      });
+
+      lightGallery(document.getElementById("lightgallery2"), {
+        selector: ".item",
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+      });
+
+      lightGallery(document.getElementById("lightgallery3"), {
+        selector: ".item",
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+      });
+    </script>
+        <script>
+  function toggleNav() {
+    const navLinks = document.querySelector('.nav-links-left');
+    navLinks.classList.toggle('show');
+  }
+</script>
+
+  </body>
+</html>
