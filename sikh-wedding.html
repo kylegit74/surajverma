@@ -366,22 +366,24 @@
               <img src="assets/images/sikhwedding.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/sikhweddin2.jpg">
+          <div class="item" data-src="assets/images/sikhwedding2.jpg">
             <div class="inSur_phto">
               <img src="assets/images/sikhwedding2.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/sikhweddin8.jpg">
+     
+     
+          <div class="item" data-src="assets/images/sikhwedding8.jpg">
             <div class="inSur_phto">
               <img src="assets/images/sikhwedding8.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/sikhweddin10.jpg">
+          <div class="item" data-src="assets/images/sikhwedding10.jpg">
             <div class="inSur_phto">
               <img src="assets/images/sikhwedding10.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/sikhweddin9.jpg">
+          <div class="item" data-src="assets/images/sikhwedding9.jpg">
             <div class="inSur_phto">
               <img src="assets/images/sikhwedding9.jpg" alt="" />
             </div>
@@ -674,19 +676,33 @@
       });
     </script>
 
-    <script>
-      lightGallery(document.getElementById("lightgallery"), {
-        selector: ".item",
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-      });
+   <script>
+  lightGallery(document.getElementById("lightgallery"), {
+    selector: ".item",
+    plugins: [lgZoom, lgThumbnail],
+    speed: 500,
+    licenseKey: "0000-0000-000-0000", // optional
+    zoom: true,
+    actualSize: false,
+    zoomPluginOptions: {
+    scale: 1.1, 
+    actualSize: false,
+    },
+  });
 
-      lightGallery(document.getElementById("lightgallery2"), {
-        selector: ".item",
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-      });
-    </script>
+  lightGallery(document.getElementById("lightgallery2"), {
+    selector: ".item",
+    plugins: [lgZoom, lgThumbnail],
+    speed: 500,
+    licenseKey: "0000-0000-000-0000",
+    zoom: true,
+    actualSize: false,
+    zoomPluginOptions: {
+    scale: 1.1, 
+    actualSize: false,
+    },
+  });
+</script>
 
         <script>
   function toggleNav() {

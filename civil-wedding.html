@@ -332,36 +332,36 @@
         <h3 id="Civil">Civil Wedding Photos -</h3>
 
         <div id="lightgallery" class="owwlInn_sur owl-carousel owl-theme">
-          <div class="item" data-src="assets/images/British1.jpg">
+          <div class="item" data-src="assets/images/civImg_1.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British1.jpg" alt="" />
+              <img src="assets/images/civImg_1.jpg" alt="" />
             </div>
           </div>
 
-          <div class="item" data-src="assets/images/banner1.webp">
+          <div class="item" data-src="assets/images/civImg_2.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/banner1.webp" alt="" />
+              <img src="assets/images/civImg_2.jpg" alt="" />
             </div>
           </div>
 
-          <div class="item" data-src="assets/images/British2.jpg">
+          <div class="item" data-src="assets/images/civImg_3.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British2.jpg" alt="" />
+              <img src="assets/images/civImg_3.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British3.jpg">
+          <div class="item" data-src="assets/images/civImg_4.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British3.jpg" alt="" />
+              <img src="assets/images/civImg_4.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British4.jpg">
+          <div class="item" data-src="assets/images/civImg_5.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British4.jpg" alt="" />
+              <img src="assets/images/civImg_5.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British5.jpg">
+          <div class="item" data-src="assets/images/civImg_6.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British5.jpg" alt="" />
+              <img src="assets/images/civImg_6.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -369,30 +369,30 @@
         <!-- <h3>Hindu Pre Wedding Photos -</h3> -->
 
         <div id="lightgallery2" class="owwlInn_sur_1 owl-carousel owl-theme">
-          <div class="item" data-src="assets/images/British1.jpg">
+          <div class="item" data-src="assets/images/civImg_7.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British1.jpg" alt="" />
+              <img src="assets/images/civImg_7.jpg" alt="" />
             </div>
           </div>
 
-          <div class="item" data-src="assets/images/British2.jpg">
+          <div class="item" data-src="assets/images/civImg_8.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British2.jpg" alt="" />
+              <img src="assets/images/civImg_8.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British3.jpg">
+          <div class="item" data-src="assets/images/civImg_9.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British3.jpg" alt="" />
+              <img src="assets/images/civImg_9.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British4.jpg">
+          <div class="item" data-src="assets/images/civImg_10.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British4.jpg" alt="" />
+              <img src="assets/images/civImg_15.jpg" alt="" />
             </div>
           </div>
-          <div class="item" data-src="assets/images/British5.jpg">
+          <div class="item" data-src="assets/images/civImg_11.jpg">
             <div class="inSur_phto">
-              <img src="assets/images/British5.jpg" alt="" />
+              <img src="assets/images/civImg_14.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -680,20 +680,34 @@
         });
       });
     </script>
+  <script>
+  lightGallery(document.getElementById("lightgallery"), {
+    selector: ".item",
+    plugins: [lgZoom, lgThumbnail],
+    speed: 500,
+    licenseKey: "0000-0000-000-0000", // optional
+    zoom: true,
+    actualSize: false,
+    zoomPluginOptions: {
+    scale: 1.1, 
+    actualSize: false,
+    },
+  });
 
-    <script>
-      lightGallery(document.getElementById("lightgallery"), {
-        selector: ".item",
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-      });
+  lightGallery(document.getElementById("lightgallery2"), {
+    selector: ".item",
+    plugins: [lgZoom, lgThumbnail],
+    speed: 500,
+    licenseKey: "0000-0000-000-0000",
+    zoom: true,
+    actualSize: false,
+    zoomPluginOptions: {
+    scale: 1.1, 
+    actualSize: false,
+    },
+  });
+</script>
 
-      lightGallery(document.getElementById("lightgallery2"), {
-        selector: ".item",
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-      });
-    </script>
         <script>
   function toggleNav() {
     const navLinks = document.querySelector('.nav-links-left');
